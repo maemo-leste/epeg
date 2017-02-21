@@ -1,3 +1,9 @@
+epeg (0.9.2-0m7) unstable; urgency=low
+
+  * Release update
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Tue, 21 Feb 2017 20:40:32 +0200
+
 epeg (0.9.1.042maemo2) unstable; urgency=low
 
   * Added libjpeg62-dev to dependencies of libepeg-dev.

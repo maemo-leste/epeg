@@ -5,10 +5,6 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-# This is the debhelper compatibility version to use.
-export DH_COMPAT=4
-
-
 CFLAGS ?= -Wall -g
 
 ifneq (,$(findstring debug,$(DEB_BUILD_OPTIONS)))
@@ -64,10 +60,11 @@ binary-indep: build install
 binary-arch: build install
 	dh_testdir
 	dh_testroot
-	dh_installchangelogs 
+	dh_installdirs
+	dh_install --sourcedir=debian/tmp
+	dh_installchangelogs
 	dh_installdocs -plibepeg0 README AUTHORS COPYING-PLAIN
 	dh_installdocs -plibepeg0-dev
-	dh_movefiles
 	dh_link
 	dh_strip -p libepeg0 --dbg-package=libepeg0
 	dh_strip -p epeg0-bin --dbg-package=epeg0-bin

@@ -1,7 +1,7 @@
 Source: epeg
 Section: libs
 Priority: optional
-Maintainer: E17 Debian Team <debian@edevelop.org>
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
 Build-Depends: cdbs, debhelper (>= 5), libjpeg62-dev
 Standards-Version: 3.7.2
 
