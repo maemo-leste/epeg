@@ -1,3 +1,9 @@
+epeg (0.9.1.042maemo2) unstable; urgency=low
+
+  * Added libjpeg62-dev to dependencies of libepeg-dev.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Thu, 28 May 2009 20:43:28 +0300
+
 epeg (0.9.1.042maemo1) unstable; urgency=low
 
   * Added -dbg packages.  Fixes: NB#118342.
