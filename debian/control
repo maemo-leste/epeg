@@ -26,13 +26,39 @@ Description: Enlightenment jpeg thumbnailer library API
  information with these thumbnails, retreiving it and managing to load
  the image ready for scaling with the minimum of fuss and CPU overhead.
 
+Package: libepeg0-dbg
+Section: libs
+Priority: extra
+Architecture: any
+Depends: libepeg0 (= ${binary:Version})
+Description: Enlightenment jpeg thumbnailer library API
+ It's a convenience library API to using libjpeg to load JPEG images destined to
+ be turned into thumbnails of the original, saving information with these
+ thumbnails, retreiving it and managing to load the image ready for scaling with
+ the minimum of fuss and CPU overhead.
+ .
+ This package contains the debug symbols.
+
 Package: epeg0-bin
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: epeg-bin
 Description: Enlightenment jpeg thumbnailer programs
- It's a convenience library API to using libjpeg to load JPEG images
- destined to be turned into thumbnails of the original, saving
- information with these thumbnails, retreiving it and managing to load
- the image ready for scaling with the minimum of fuss and CPU overhead.
+ It's a convenience library API to using libjpeg to load JPEG images destined to
+ be turned into thumbnails of the original, saving information with these
+ thumbnails, retreiving it and managing to load the image ready for scaling with
+ the minimum of fuss and CPU overhead.
+
+Package: epeg0-bin-dbg
+Section: libs
+Priority: extra
+Architecture: any
+Depends: epeg0-bin (= ${binary:Version})
+Description: Enlightenment jpeg thumbnailer programs
+ It's a convenience library API to using libjpeg to load JPEG images destined to
+ be turned into thumbnails of the original, saving information with these
+ thumbnails, retreiving it and managing to load the image ready for scaling with
+ the minimum of fuss and CPU overhead.
+ .
+ This package contains the debugging symbols.

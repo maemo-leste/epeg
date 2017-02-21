@@ -1,0 +1,39 @@
+epeg (0.9.1.042maemo1) unstable; urgency=low
+
+  * Added -dbg packages.  Fixes: NB#118342.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Fri, 22 May 2009 16:27:16 +0300
+
+epeg (0.9.1.042maemo0) unstable; urgency=low
+
+  * Release update
+
+ -- Philip Van Hoof <philip@codeminded.be>  Mon, 08 Dec 2008 15:44:37 +0200
+
+epeg (0.9.0.005maemo2) unstable; urgency=low
+
+  * Don't output "-ljpeg" for pkg-config --libs, dependencies are handled
+    by libtool and we would need libjpeg62-dev to make -ljpeg work.
+  * Do not include epeg-config and *.la files in the -dev package, they
+    only cause harm.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Tue, 25 Nov 2008 16:28:37 +0200
+
+epeg (0.9.0.005maemo1) unstable; urgency=low
+
+  * Tuned Build-Dependencies to install automake.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Fri, 31 Oct 2008 15:00:16 +0200
+
+epeg (0.9.0.005maemo0) unstable; urgency=low
+
+  * Built for maemo.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Tue, 28 Oct 2008 15:02:48 +0200
+
+epeg (0.9.0.005) unstable; urgency=low
+
+  * Initial CVS release
+
+ -- Alessandro Grassi <xstasi@soulmachine.net>  Sat,  4 Mar 2006 18:01:50 -0700
+
