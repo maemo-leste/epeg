@@ -2,7 +2,7 @@ Source: epeg
 Section: libs
 Priority: optional
 Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
-Build-Depends: cdbs, debhelper (>= 5), libjpeg62-dev | libjpeg62-turbo-dev, libexif-dev, autoconf, automake, libtool
+Build-Depends: debhelper (>= 10), libjpeg62-dev | libjpeg62-turbo-dev, libexif-dev, autoconf, automake, libtool
 Standards-Version: 3.7.2
 
 Package: libepeg0-dev
@@ -26,19 +26,6 @@ Description: Enlightenment jpeg thumbnailer library API
  information with these thumbnails, retreiving it and managing to load
  the image ready for scaling with the minimum of fuss and CPU overhead.
 
-Package: libepeg0-dbg
-Section: libs
-Priority: extra
-Architecture: any
-Depends: libepeg0 (= ${binary:Version})
-Description: Enlightenment jpeg thumbnailer library API
- It's a convenience library API to using libjpeg to load JPEG images destined to
- be turned into thumbnails of the original, saving information with these
- thumbnails, retreiving it and managing to load the image ready for scaling with
- the minimum of fuss and CPU overhead.
- .
- This package contains the debug symbols.
-
 Package: epeg0-bin
 Section: libs
 Architecture: any
@@ -49,16 +36,3 @@ Description: Enlightenment jpeg thumbnailer programs
  be turned into thumbnails of the original, saving information with these
  thumbnails, retreiving it and managing to load the image ready for scaling with
  the minimum of fuss and CPU overhead.
-
-Package: epeg0-bin-dbg
-Section: libs
-Priority: extra
-Architecture: any
-Depends: epeg0-bin (= ${binary:Version})
-Description: Enlightenment jpeg thumbnailer programs
- It's a convenience library API to using libjpeg to load JPEG images destined to
- be turned into thumbnails of the original, saving information with these
- thumbnails, retreiving it and managing to load the image ready for scaling with
- the minimum of fuss and CPU overhead.
- .
- This package contains the debugging symbols.

@@ -1,3 +1,9 @@
+epeg (0.9.3) unstable; urgency=medium
+
+  * Port to debhelper 10
+
+ -- Ivan J. <parazyd@dyne.org>  Sat, 30 Mar 2019 17:37:43 +0100
+
 epeg (0.9.2) unstable; urgency=low
 
   * Release update
